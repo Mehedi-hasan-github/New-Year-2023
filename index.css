@@ -1,43 +1,79 @@
-*{
- margin: 0px ;
- padding: 0px ;
- box-sizing: border-box;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
 /* Header section start over here */
 
-.header-section{
-display: flex;
-align-items: center;
-justify-content: flex-end;
-padding: 0px 10%;
- background-image: url('/images/banner/banner3.png');
- background-position:center;
- height:600px;
- width: 100%;
-}
-.title{
-width: 40%;
-text-align: right;
- color: white;
- font-family: sans-serif;
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 10%;
+    background-image: url('/images/banner/banner3.png');
+    background-position: center;
+    height: 600px;
+    width: 100%;
 }
 
-.title h1{
-font-size: 40px;
-margin:0px 0px  20px ;
- text-align: 40px;
+.title {
+    width: 40%;
+    text-align: right;
+    color: white;
+    font-family: sans-serif;
 }
 
-.title button{
-font-size: 15px;
-border-radius: 3px;
-border: 1px solid wheat;
- color: crimson;
- padding: 5px 15px;
- margin-top: 20px;
+.title h1 {
+    font-size: 40px;
+    margin: 0px 0px 20px;
+    text-align: 40px;
+}
+
+.title button {
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid wheat;
+    color: crimson;
+    padding: 5px 15px;
+    margin-top: 20px;
 }
 
 /* Header section end */
 
-/* Main section start over here */
-/* Main section end over here */
+
+/* failure section start */
+.failure-section {
+    font-family: sans-serif;
+    padding: 80px 10%;
+    display: flex;
+    align-items: center;
+}
+
+
+li {
+    list-style: none;
+    background-image: url("/images/icons/check-mark.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 10px 25px;
+    background-size: 15px;
+}
+
+.failure-section>div {
+    width: 50%;
+}
+
+.img-portion img {
+    width: 300px;
+}
+
+.image-portion img {
+    width: 200px;
+    height: 200px;
+}
+
+.text-portion h3 {
+margin: 0px 0px 20px;
+    font-size: 27px;
+}
