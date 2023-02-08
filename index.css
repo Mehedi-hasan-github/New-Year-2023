@@ -1,0 +1,43 @@
+*{
+ margin: 0px ;
+ padding: 0px ;
+ box-sizing: border-box;
+}
+/* Header section start over here */
+
+.header-section{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+padding: 0px 10%;
+ background-image: url('/images/banner/banner3.png');
+ background-position:center;
+ height:600px;
+ width: 100%;
+}
+.title{
+width: 40%;
+text-align: right;
+ color: white;
+ font-family: sans-serif;
+}
+
+.title h1{
+font-size: 40px;
+margin:0px 0px  20px ;
+ text-align: 40px;
+}
+
+.title button{
+font-size: 15px;
+border-radius: 3px;
+border: 1px solid wheat;
+ color: crimson;
+ padding: 5px 15px;
+ margin-top: 20px;
+}
+
+/* Header section end */
+
+/* Main section start over here */
+/* Main section end over here */
