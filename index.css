@@ -81,7 +81,7 @@ li {
 /*........... My plan section's css ...........*/
 
 .my-plan {
-    padding: 80px 10%;
+    padding: 60px 10%;
 }
 
 .my-plan-parent {
@@ -113,7 +113,7 @@ li {
 /*........ Positive mindset section start over here........ */
 
 .positive {
-    margin: 50px 10%;
+    margin: 0px 10% 60px;
     /* background-image: url(/images/watch.png); */
 }
 
@@ -134,3 +134,49 @@ li {
     font-weight: bold;
     margin-top: 20px;
 }
+
+
+/* ------Footer section started over here-------- */
+.footer{
+ margin: 0px 10%;
+ padding: 40px;
+ background-color: black;
+ color: white;
+}
+.footer .bothPartOfFooter{
+ display: flex;
+ justify-content: space-around;
+}
+
+.footerPartOne{
+ width: 50%;
+}
+
+.imagePortion-footerOne img{
+ width: 30px;
+ margin-right: 15px;
+ border-radius: 50%;
+}
+
+
+.footerPartTwo{
+ display: flex;
+ flex-direction: column;
+}
+.footerPartTwo input{
+ border: 1px solid white;
+ background-color: black;
+ outline: none;
+ margin: 10px 0px 10px;
+ color: white;
+ border-radius: 5px;
+ padding: 10px 10px;
+}
+.footerPartTwo button{
+ color: tomato; 
+ font-weight: 800;
+ width: fit-content;
+ padding: 3px 7px;
+ border-radius: 5px;
+}
+
