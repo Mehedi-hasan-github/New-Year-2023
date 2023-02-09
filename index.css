@@ -73,35 +73,64 @@ li {
 }
 
 .text-portion h3 {
-margin: 0px 0px 20px;
+    margin: 0px 0px 20px;
     font-size: 27px;
 }
 
 
 /*........... My plan section's css ...........*/
 
-.my-plan{
- padding:80px 10%;
-}
-.my-plan-parent{
- display: flex;
- justify-content: space-between;
+.my-plan {
+    padding: 80px 10%;
 }
 
-.my-plan-parent>div{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center; 
+.my-plan-parent {
+    display: flex;
+    justify-content: space-between;
 }
-.my-plan-parent>div>img{
- width: 45px;
- margin-bottom: 14px;
+
+.my-plan-parent>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.my-plan-parent>div>p{
- font-size: 12px;
- margin: 10px ;
+
+.my-plan-parent>div>img {
+    width: 45px;
+    margin-bottom: 14px;
 }
+
+.my-plan-parent>div>p {
+    font-size: 12px;
+    margin: 10px;
+}
+
 /*........ My-plans section ends over here........ */
 
 
+
+/*........ Positive mindset section start over here........ */
+
+.positive {
+    margin: 50px 10%;
+    /* background-image: url(/images/watch.png); */
+}
+
+.positive-mindset {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(10, 60, 241, 0.4), rgba(222, 216, 233, 0.1)), url(/images/watch.png);
+    height: 200px;
+    padding: 0px 35px;
+}
+
+.positive-mindset button {
+    width: fit-content;
+    padding: 5px 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
