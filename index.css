@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* Header section start over here */
@@ -21,7 +22,6 @@
     width: 40%;
     text-align: right;
     color: white;
-    font-family: sans-serif;
 }
 
 .title h1 {
@@ -44,7 +44,6 @@
 
 /* failure section start */
 .failure-section {
-    font-family: sans-serif;
     padding: 80px 10%;
     display: flex;
     align-items: center;
@@ -76,4 +75,14 @@ li {
 .text-portion h3 {
 margin: 0px 0px 20px;
     font-size: 27px;
+}
+
+
+/* My plan section's css */
+.my-plan{
+ padding:80px 10%;
+}
+.my-plan-parent{
+ display: flex;
+ justify-content: space-between;
 }
