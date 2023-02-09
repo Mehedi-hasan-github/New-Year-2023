@@ -52,7 +52,7 @@
 
 li {
     list-style: none;
-    background-image: url("/images/icons/check-mark.png");
+    background-image: url("/images/icons/web.png");
     background-repeat: no-repeat;
     background-position: left center;
     padding: 10px 25px;
@@ -123,7 +123,7 @@ li {
     flex-direction: column;
     justify-content: center;
     border-radius: 5px;
-    background-image: linear-gradient(to right, rgba(10, 60, 241, 0.4), rgba(222, 216, 233, 0.1)), url(/images/watch.png);
+    background-image: linear-gradient(to right, rgba(10, 60, 241, 0.7), rgba(222, 216, 233, 0)), url(/images/watch.png);
     height: 200px;
     padding: 0px 35px;
 }
@@ -138,14 +138,13 @@ li {
 
 /* ------Footer section started over here-------- */
 .footer{
- margin: 0px 10%;
- padding: 40px;
+ padding: 40px 10%;
  background-color: black;
  color: white;
 }
 .footer .bothPartOfFooter{
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
 }
 
 .footerPartOne{
