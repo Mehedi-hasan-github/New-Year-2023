@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-/* Header section start over here */
+/*........... Header section start over here ...........*/
 
 .header-section {
     display: flex;
@@ -39,10 +39,10 @@
     margin-top: 20px;
 }
 
-/* Header section end */
+/*............. Header section end............. */
 
 
-/* failure section start */
+/* .............failure section start .............*/
 .failure-section {
     padding: 80px 10%;
     display: flex;
@@ -78,7 +78,8 @@ margin: 0px 0px 20px;
 }
 
 
-/* My plan section's css */
+/*........... My plan section's css ...........*/
+
 .my-plan{
  padding:80px 10%;
 }
@@ -86,3 +87,21 @@ margin: 0px 0px 20px;
  display: flex;
  justify-content: space-between;
 }
+
+.my-plan-parent>div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+}
+.my-plan-parent>div>img{
+ width: 45px;
+ margin-bottom: 14px;
+}
+.my-plan-parent>div>p{
+ font-size: 12px;
+ margin: 10px ;
+}
+/*........ My-plans section ends over here........ */
+
+
